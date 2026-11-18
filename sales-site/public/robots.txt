@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# TODO: replace naistack.studio with your real domain after deploying
+Sitemap: https://naistack.studio/sitemap.xml
