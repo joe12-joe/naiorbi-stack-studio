@@ -1,8 +1,7 @@
-# Netlify build config — lets Git-integrated Netlify deploys work out of the box.
-# The Next.js app lives in sales-site/, not at the repo root.
+# Netlify build config (site previously tested on Netlify; Vercel is the active target)
 [build]
-  command = "cd sales-site && npm run build"
-  publish = "sales-site/.next"
+  command = "npm run build"
+  publish = ".next"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
